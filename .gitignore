@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+node_modules/
+vendor/
+.DS_Store
+examples/out/*.tmp

@@ -1,0 +1,13 @@
+{
+  "valid": true,
+  "reports": [
+    {
+      "root": "examples/in/proj",
+      "specFiles": 3,
+      "specCount": 3,
+      "danglingLinks": [],
+      "duplicateIds": [],
+      "parentCycles": []
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "valid": false,
+  "reports": [
+    {
+      "root": "examples/in/badproj",
+      "specFiles": 3,
+      "specCount": 2,
+      "danglingLinks": [
+        {
+          "from": "stale",
+          "fromPath": "examples/in/badproj/stale.md",
+          "kind": "parent",
+          "target": "nonexistent"
+        },
+        {
+          "from": "stale",
+          "fromPath": "examples/in/badproj/stale.md",
+          "kind": "depends-on",
+          "target": "ghost"
+        }
+      ],
+      "duplicateIds": [
+        {
+          "id": "real",
+          "paths": [
+            "examples/in/badproj/dup.md",
+            "examples/in/badproj/real.md"
+          ]
+        }
+      ],
+      "parentCycles": []
+    }
+  ]
+}
